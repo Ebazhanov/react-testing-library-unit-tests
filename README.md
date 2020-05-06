@@ -1,4 +1,4 @@
-> Playing around React-testing-library
+> Playing around `React-testing-library` which is the right alternative to `Enzyme`
 
 ### Usage
 - `yarn test` // run all tests
