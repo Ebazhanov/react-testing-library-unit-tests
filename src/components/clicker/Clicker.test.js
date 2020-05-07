@@ -23,7 +23,7 @@ it("decrements count", () => {
     expect(getByTestId("count")).toHaveTextContent("-1");
 })
 
-it("decrements count two times", async () => {
+it("decrements count two times", () => {
     const {getByTestId, getByText} = render(<Clickers/>)
     fireEvent.click(getByText("Down"))
     fireEvent.click(getByText("Down"))
